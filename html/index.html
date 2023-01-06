@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Login</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="shortcut icon" href="../img/login.png" />
+  </head>
+  <body>
+    <div>
+      <img src="../img/login.png" height="100px" /><br />
+      <h1>BEM-VINDO!</h1>
+      <div>
+        <img align="center" src="../img/user.png" height="20px" />
+        <input
+          type="input"
+          class="input"
+          placeholder="Usuário"
+          name="name"
+          id="name"
+          required
+        />
+        <br /><br />
+        <img align="center" src="../img/senha.png" height="20px" />
+        <input
+          type="password"
+          class="input"
+          placeholder="Senha"
+          name="name"
+          id="senha"
+          required
+        />
+      </div>
+
+      <div class="link">
+        <a href="http://127.0.0.1:5500/html/redefinir.html">Esqueceu sua senha?</a
+        ><br />
+      </div>
+      <br />
+        <button onclick="validarDados()">Entrar</button>
+    </div>
+    <script type="text/javascript" src="../scripts/scripts.js"></script>
+  </body>
+</html>
